@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="379px" height="180px" viewBox="0 0 379 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Content</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Snackbar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Snackbar-Design-(NEW)" transform="translate(-329.000000, -1729.000000)">
+            <g id="When-to-use" transform="translate(329.000000, 686.000000)">
+                <g id="Feedback-with-Option" transform="translate(0.000000, 697.000000)">
+                    <g id="DONT-dismiss-action" transform="translate(0.000000, 346.000000)">
+                        <g id="Content">
+                            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" opacity="0.01" x="0" y="0" width="379" height="180"></rect>
+                            <g id="Snack-bar-/-Single-line-/-Action" transform="translate(11.000000, 58.000000)">
+                                <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(8.000000, 8.000000)">
+                                    <rect id="Rectangle" fill="#25333D" x="-2.84217094e-14" y="0" width="344.002899" height="48" rx="4"></rect>
+                                    <rect id="Target" x="263" y="6" width="73" height="36"></rect>
+                                    <text id="Action" font-family="Roboto-Medium, Roboto" font-size="13.7459165" font-weight="400" line-spacing="16" letter-spacing="1.25" fill="#89CBDF">
+                                        <tspan x="307.344383" y="29">OK</tspan>
+                                    </text>
+                                </g>
+                                <text id="Single-line-message" font-family="Roboto-Regular, Roboto" font-size="13.7459165" font-weight="normal" line-spacing="20" letter-spacing="0.25" fill="#F3F6FA">
+                                    <tspan x="24" y="35">Added 'Dundees' to your calendar.</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
