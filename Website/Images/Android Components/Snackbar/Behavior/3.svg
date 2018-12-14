@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="379" height="179" viewBox="0 0 379 179">
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="180" viewBox="0 0 380 180">
   <g fill="none" fill-rule="evenodd">
-    <rect width="379" height="179" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
-    <g transform="translate(24 69)">
+    <rect width="380" height="180" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
+    <g transform="translate(25 66)">
       <g transform="translate(.637)">
         <rect width="328.411" height="48" fill="#25333D" rx="4"/>
         <rect width="69.691" height="48" x="251.079"/>
