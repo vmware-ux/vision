@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
   <defs>
     <path id="1-c" d="M32.0000794,33.9517752 C29.0331055,36.4754568 25.1912775,38 21,38 C11.626,38 4,30.374 4,21 C4,11.626 11.626,4 21,4 C30.374,4 38,11.626 38,21 C38,25.1912775 36.4754568,29.0331055 33.9517752,32.0000794 C34.4792286,31.9874042 35.0107111,32.1827111 35.414,32.586 L41.414,38.586 C42.196,39.368 42.196,40.632 41.414,41.414 C41.024,41.804 40.512,42 40,42 C39.488,42 38.976,41.804 38.586,41.414 L32.586,35.414 C32.1827111,35.0107111 31.9874042,34.4792286 32.0000794,33.9517752 Z M21,8 C13.832,8 8,13.832 8,21 C8,28.168 13.832,34 21,34 C28.168,34 34,28.168 34,21 C34,13.832 28.168,8 21,8 Z"/>
     <rect id="1-a" width="96" height="96"/>
@@ -11,8 +11,8 @@
     </mask>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <rect width="150" height="150" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
-    <g transform="translate(11 5)">
+    <rect width="180" height="180" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
+    <g transform="translate(26 20)">
       <use fill="#157DB9" transform="translate(41 47)" xlink:href="#1-c"/>
       <path fill="#C41261" d="M1,47 L47,47 L47,1 L1,1 L1,47 Z M1,48 L0,48 L0,1 L0,0 L48,0 L48,1 L48,48 L47,48 L1,48 Z" transform="translate(41 47)"/>
       <use fill-rule="nonzero" stroke="#6FEAD9" stroke-dasharray="1" stroke-width="2" mask="url(#1-d)" transform="translate(17 23)" xlink:href="#1-a"/>
