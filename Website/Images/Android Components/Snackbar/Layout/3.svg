@@ -1,20 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="180" viewBox="0 0 380 180">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="376" height="180" viewBox="0 0 376 180">
   <defs>
-    <circle id="3-b" cx="28" cy="28" r="28"/>
-    <filter id="3-a" width="125%" height="125%" x="-12.5%" y="-8.9%" filterUnits="objectBoundingBox">
-      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
-      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+    <rect id="3-b" width="360" height="128"/>
+    <filter id="3-a" width="106.9%" height="119.5%" x="-3.5%" y="-9%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMorphology in="SourceAlpha" radius="1" result="shadowSpreadOuter2"/>
+      <feOffset dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter3"/>
+      <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+        <feMergeNode in="shadowMatrixOuter3"/>
+      </feMerge>
     </filter>
     <path id="3-c" d="M12.8998,10.8994 L12.8998,3.0004 C12.8998,2.4474 12.4518,2.0004 11.8998,2.0004 C11.3468,2.0004 10.8998,2.4474 10.8998,3.0004 L10.8998,10.8994 L2.9998,10.8994 C2.4478,10.8994 1.9998,11.3474 1.9998,11.8994 C1.9998,12.4514 2.4478,12.8994 2.9998,12.8994 L10.8998,12.8994 L10.8998,21 C10.8998,21.553 11.3468,22 11.8998,22 C12.4518,22 12.8998,21.553 12.8998,21 L12.8998,12.8994 L21,12.8994 C21.552,12.8994 22,12.4514 22,11.8994 C22,11.3474 21.552,10.8994 21,10.8994 L12.8998,10.8994 Z"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <rect width="380" height="180" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
-    <g transform="translate(10 26)">
-      <rect width="360" height="128" fill="#FFF" fill-rule="nonzero"/>
+    <rect width="375" height="180" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
+    <g transform="translate(8 26)">
+      <use fill="#000" filter="url(#3-a)" xlink:href="#3-b"/>
+      <use fill="#F7F7F7" xlink:href="#3-b"/>
+      <rect width="360" height="128" fill="#FFF"/>
       <g transform="translate(288 64)">
-        <use fill="#000" filter="url(#3-a)" xlink:href="#3-b"/>
-        <use fill="#1A23A0" xlink:href="#3-b"/>
+        <circle cx="28" cy="28" r="28" fill="#1A23A0"/>
         <use fill="#FFF" transform="translate(16 16)" xlink:href="#3-c"/>
       </g>
       <g transform="translate(8 8)">
