@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1026" height="180" viewBox="0 0 1026 180">
   <g fill="none" fill-rule="evenodd" transform="translate(1)">
     <rect width="1024" height="180" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
-    <g transform="translate(0 17)">
+    <g transform="translate(0 28)">
       <g fill-rule="nonzero" stroke="#979797">
         <polyline fill="#FFF" points="1024 0 1024 124 0 124 0 0 0 0"/>
         <path d="M391,0 L391,124"/>
