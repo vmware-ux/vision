@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="830" height="683" viewBox="0 0 830 683">
+  <defs>
+    <rect id="2-b" width="375" height="667"/>
+    <filter id="2-a" width="106.7%" height="103.7%" x="-3.3%" y="-1.7%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMorphology in="SourceAlpha" radius="1" result="shadowSpreadOuter2"/>
+      <feOffset dy="3" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter3"/>
+      <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation="2"/>
+      <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+        <feMergeNode in="shadowMatrixOuter3"/>
+      </feMerge>
+    </filter>
+    <rect id="2-d" width="343" height="205" rx="4"/>
+    <filter id="2-c" width="102.9%" height="104.9%" x="-1.5%" y="-2%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+      <feMorphology in="SourceAlpha" radius=".5" result="shadowSpreadOuter2"/>
+      <feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0"/>
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter3"/>
+      <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation=".5"/>
+      <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.14 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+        <feMergeNode in="shadowMatrixOuter3"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(8 7)">
+    <rect width="822" height="667" fill="#FFF" fill-opacity=".01" fill-rule="nonzero"/>
+    <use fill="#000" filter="url(#2-a)" xlink:href="#2-b"/>
+    <use fill="#F7F7F7" xlink:href="#2-b"/>
+    <rect width="375" height="667" fill="#F2F2F2"/>
+    <g transform="translate(24 100)">
+      <text fill="#000" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" letter-spacing=".38">
+        <tspan x="0" y="156">This is an example of a page that has </tspan> <tspan x="0" y="181">one primary action.</tspan> <tspan x="0" y="231">The high emphasis button is useful </tspan> <tspan x="0" y="256">here to encourage the user to perform </tspan> <tspan x="0" y="281">the action, say, to go the next screen.</tspan>
+      </text>
+      <text fill="#000" font-family="SFProDisplay-Bold, SF Pro Display" font-size="34" font-weight="bold" letter-spacing=".39">
+        <tspan x="0" y="32">Welcome.</tspan>
+      </text>
+      <g transform="translate(16 471)">
+        <rect width="295" height="48" fill="#314351" rx="8"/>
+        <text fill="#FFF" font-family="SFProText-Medium, SF Pro Text" font-size="17" font-weight="400" letter-spacing="-.41">
+          <tspan x="121.283" y="29">Button</tspan>
+        </text>
+      </g>
+    </g>
+    <g transform="translate(415 98)">
+      <g transform="translate(0 72)">
+        <rect width="407" height="72" fill="#FFF"/>
+        <rect width="407" height="1" y="71" fill="#D9E4EA"/>
+        <g transform="translate(282 24)">
+          <rect width="110" height="24" x=".5" fill="#314351" rx="4"/>
+          <text fill="#FFF" font-family="SFProText-Semibold, SF Pro Text" font-size="13" font-weight="500" letter-spacing="-.08">
+            <tspan x="16.776" y="15">DOWNLOAD</tspan>
+          </text>
+        </g>
+        <circle cx="44" cy="36" r="28" fill="#F3F6FA"/>
+        <circle cx="44" cy="36" r="27.5" stroke="#798893"/>
+        <text fill="#314351" font-family="SFProText-Regular, SF Pro Text" font-size="15" letter-spacing="-.24">
+          <tspan x="88" y="52">Version 3.2</tspan>
+        </text>
+        <text fill="#000" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" letter-spacing=".38">
+          <tspan x="88" y="32">Lorum ipsum</tspan>
+        </text>
+      </g>
+      <rect width="407" height="72" fill="#FFF"/>
+      <rect width="407" height="1" y="71" fill="#D9E4EA"/>
+      <g transform="translate(306 24)">
+        <rect width="86" height="24" x=".5" fill="#314351" rx="4"/>
+        <text fill="#FFF" font-family="SFProText-Semibold, SF Pro Text" font-size="13" font-weight="500" letter-spacing="-.08">
+          <tspan x="16.656" y="15">INSTALL</tspan>
+        </text>
+      </g>
+      <circle cx="44" cy="36" r="28" fill="#F3F6FA"/>
+      <circle cx="44" cy="36" r="27.5" stroke="#798893"/>
+      <text fill="#314351" font-family="SFProText-Regular, SF Pro Text" font-size="15" letter-spacing="-.24">
+        <tspan x="88" y="52">Version 3.2</tspan>
+      </text>
+      <text fill="#000" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" letter-spacing=".38">
+        <tspan x="88" y="32">Lorum ipsum</tspan>
+      </text>
+    </g>
+    <text fill="#C8226C" font-family="NeuzeitGro-Reg, Neuzeit Grotesk" font-size="17">
+      <tspan x="24" y="51">Sample usage on a full page layout.</tspan>
+    </text>
+    <text fill="#C8226C" font-family="NeuzeitGro-Reg, Neuzeit Grotesk" font-size="17">
+      <tspan x="415" y="51">Sample usage on containers such as </tspan> <tspan x="415" y="68">list items.</tspan>
+    </text>
+    <text fill="#C8226C" font-family="NeuzeitGro-Reg, Neuzeit Grotesk" font-size="17">
+      <tspan x="415" y="367">Sample usage in conjunction with a </tspan> <tspan x="415" y="384">medium emphasis button.</tspan>
+    </text>
+    <g transform="translate(415 414)">
+      <use fill="#000" filter="url(#2-c)" xlink:href="#2-d"/>
+      <use fill="#FAFAFA" xlink:href="#2-d"/>
+      <rect width="343" height="205" fill="#FFF" rx="4"/>
+      <rect width="311" height="121" x="16" y="16" fill="#F3F6FA"/>
+      <rect width="310" height="120" x="16.5" y="16.5" stroke="#798893"/>
+      <g transform="translate(16 153)">
+        <rect width="147" height="35" x=".5" y=".5" stroke="#A9B6BE" rx="4"/>
+        <text fill="#314351" font-family="SFProText-Medium, SF Pro Text" font-size="16" font-weight="400" letter-spacing="-.32">
+          <tspan x="54.964" y="22">Deny</tspan>
+        </text>
+      </g>
+      <g transform="translate(180 153)">
+        <rect width="147" height="36" fill="#314351" rx="4"/>
+        <text fill="#FFF" font-family="SFProText-Medium, SF Pro Text" font-size="16" font-weight="400" letter-spacing="-.32">
+          <tspan x="42.417" y="22">Approve</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
